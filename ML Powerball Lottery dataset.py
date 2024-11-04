@@ -56,7 +56,7 @@ data_set_result= parse_api_data(api_url="https://www.valottery.com/api/v1/downlo
 
 lotto_hist=data_set_result['lotto_hist'] 
 
-#september data
+#october data
 filter_date_pattern= "^[1][0]\\/([1-9]|[12][0-9]|3[01])\\/202[3-4]$"
 filtered_results= filter_list(filter_date_pattern,lotto_hist)
 
